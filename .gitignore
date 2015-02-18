@@ -1,0 +1,7 @@
+*.swp
+
+setup.data
+setup.log
+
+_build
+xapi_login_bot.native
