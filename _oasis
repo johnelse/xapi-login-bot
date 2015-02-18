@@ -1,0 +1,16 @@
+OASISFormat:  0.4
+Name:         xapi-login-bot
+Version:      0.1.0
+Synopsis:     Tool for simulating a large number of parallel xapi login attempts
+License:      MIT
+Authors:      John Else
+Copyrights:   (C) 2015 John Else
+BuildTools:   ocamlbuild
+Plugins:      META (0.4), DevFiles (0.4)
+
+Executable xapi_login_bot
+  CompiledObject: best
+  Path:           src
+  MainIs:         xapi_login_bot.ml
+  BuildDepends:   xen-api-client.lwt
+  BuildDepends:   obus, lwt.syntax, mpris.clients, spotify-web-api, cmdliner
