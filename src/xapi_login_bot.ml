@@ -17,6 +17,7 @@ let login_loop id rpc username password =
           ~uname:username
           ~pwd:password
           ~version:"1"
+          ~originator:"xapi-login-bot"
         >>= (fun session -> return (Some session))
       with _ -> return None
     in
