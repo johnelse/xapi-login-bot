@@ -12,5 +12,4 @@ Executable xapi_login_bot
   CompiledObject: best
   Path:           src
   MainIs:         xapi_login_bot.ml
-  BuildDepends:   xen-api-client.lwt
-  BuildDepends:   obus, lwt.syntax, mpris.clients, spotify-web-api, cmdliner
+  BuildDepends:   lwt.syntax, xen-api-client.lwt
