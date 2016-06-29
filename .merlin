@@ -1,0 +1,4 @@
+PKG lwt.syntax xen-api-client.lwt
+S src
+
+B _build/src
